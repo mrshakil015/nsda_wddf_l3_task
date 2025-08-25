@@ -6,13 +6,13 @@
   --dark-color: #212529;
 }
 
-.btn-primary{
-    background-color: #f96900;
-    border: none;
+.btn-primary {
+  background-color: #f96900;
+  border: none;
 }
-.btn-primary:hover{
-    background-color: #fff;
-    color: #f96900;
+.btn-primary:hover {
+  background-color: #03515e;
+  color: #fff;
 }
 
 body {
@@ -65,4 +65,19 @@ body {
   color: white;
 }
 
+/* Section padding */
+section {
+  padding: 80px 0;
+}
 
+/* Head of Institute */
+.director-card {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.director-card:hover {
+  transform: translateY(-10px);
+}
