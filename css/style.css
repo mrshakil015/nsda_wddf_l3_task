@@ -115,7 +115,50 @@ section {
 .gallery-item:hover img {
   transform: scale(1.1);
 }
-/* Utility Classes */
+
+/* ABout */
+.about-content {
+  padding: 30px;
+}
+
+.about-img {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Staff */
+.staff-card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  margin-bottom: 30px;
+}
+
+.staff-card .card-body {
+  padding: 15px;
+}
+
+.staff-card:hover {
+  transform: translateY(-10px);
+}
+
+.staff-img {
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Footer */
+.footer {
+  background-color: #03515e;
+  color: white;
+  padding: 50px 0 20px;
+}
+
+
+
+/* Other */
 .section-title {
   position: relative;
   margin-bottom: 40px;
@@ -138,9 +181,3 @@ section {
   transform: translateX(-50%);
 }
 
-/* Footer */
-.footer {
-  background-color: #03515e;
-  color: white;
-  padding: 50px 0 20px;
-}
