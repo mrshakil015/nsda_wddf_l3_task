@@ -1,0 +1,68 @@
+:root {
+  --primary-color: #f96900;
+  --secondary-color: #ff006e;
+  --accent-color: #8338ec;
+  --light-color: #f8f9fa;
+  --dark-color: #212529;
+}
+
+.btn-primary{
+    background-color: #f96900;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #fff;
+    color: #f96900;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+/* Navigation */
+.navbar {
+  padding: 15px 0;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: var(--primary-color);
+}
+
+.nav-link {
+  font-weight: 500;
+  margin: 0 10px;
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Banner */
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+
