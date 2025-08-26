@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neural Academy</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/css/bootstrap.min.css"
+        integrity="sha512-fw7f+TcMjTb7bpbLJZlP8g2Y4XcCyFZW8uy8HsRZsH/SwbMw0plKHFHr99DN3l04VsYNwvzicUX/6qurvIxbxw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/js/bootstrap.min.js"
+        integrity="sha512-zKeerWHHuP3ar7kX2WKBSENzb+GJytFSBL6HrR2nPSR1kOX1qjm+oHooQtbDpDBSITgyl7QXZApvDfDWvKjkUw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css" integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Neural Academy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <div class="about-page">
+            <div class="banner">
+                <div class="container text-center">
+                    <h1 class="display-4 fw-bold">Contact US</h1>
+                </div>
+            </div>
+
+            <section id="contact-page">
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="col-lg-4">
+                            <div class="contact-card h-100">
+                                <div class="card-body">
+                                    
+                                    <div class="info-box mb-4">
+                                        <h5><i class="bi bi-geo-alt-fill"></i> Address</h5>
+                                        <p class="ps-4">123 Main Street, Dhaka, Bangladesh</p>
+                                    </div>
+                                    <div class="info-box mb-4">
+                                        <h5><i class="bi bi-telephone-fill"></i> Phone</h5>
+                                        <p class="ps-4">+880 1234 567 890</p>
+                                    </div>
+                                    <div class="info-box">
+                                        <h5><i class="bi bi-envelope-fill"></i> Email</h5>
+                                        <p class="ps-4">info@example.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-8">
+                            <div class="contact-card">
+                                <form>
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <input type="text" class="form-control" placeholder="Your Name" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="email" class="form-control" placeholder="Your Email" required>
+                                        </div>
+                                        <div class="col-12">
+                                            <input type="text" class="form-control" placeholder="Subject" required>
+                                        </div>
+                                        <div class="col-12">
+                                            <textarea class="form-control" rows="5" placeholder="Your Message"
+                                                required></textarea>
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="submit" class="btn btn-primary p-2">Send Message</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <h3>Neural Academy</h3>
+                        <p>Providing quality education since 1995. Our mission is to empower students with knowledge and
+                            skills for the future.</p>
+                        <p>Current Date: <span id="current_date"></span></p>
+                        <p>Current Time: <span id="current_time"></span></p>
+                    </div>
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <h3>Quick Links</h3>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html" class="text-white">Home</a></li>
+                            <li><a href="about.html" class="text-white">About Us</a></li>
+                            <li><a href="contact.html" class="text-white">Contact Us</a></li>
+                            <li><a href="faq.html" class="text-white">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Connect With Us</h3>
+                        <div class="d-flex">
+                            <a href="#" class="text-white me-3"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                            <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                            <a href="#" class="text-white me-3"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-4 bg-light">
+                <div class="text-center">
+                    <p>&copy; 2025 Neural Academy. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+    <script src="./js/script.js"></script>    
+</body>
+
+</html>

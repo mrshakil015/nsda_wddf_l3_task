@@ -149,14 +149,29 @@ section {
   object-fit: cover;
 }
 
+/* Contact */
+
+.contact-card {
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  padding: 30px;
+}
+
+#contact-page i{
+  color: #f96900;
+}
+
+#contact-page .info-box h5{
+  color: #f96900;
+}
+
 /* Footer */
 .footer {
   background-color: #03515e;
   color: white;
   padding: 50px 0 20px;
 }
-
-
 
 /* Other */
 .section-title {

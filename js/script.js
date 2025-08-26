@@ -7,3 +7,13 @@ function updateDateTime() {
 
 setInterval(updateDateTime, 1000);
 updateDateTime();
+
+
+// Confirmation Popup on Contact Form
+function confirmSubmit(event) {
+  event.preventDefault();
+  if (confirm("Do you want to submit the form?")) {
+    alert("Form Submitted Successfully!");
+    event.target.submit();
+  }
+}
